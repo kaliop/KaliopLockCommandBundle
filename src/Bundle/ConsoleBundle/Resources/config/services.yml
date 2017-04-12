@@ -1,0 +1,8 @@
+parameters:
+  kaliop.console.subscriber.lock.class: "Kaliop\\Bundle\\ConsoleBundle\\EventListener\\LockSubscriber"
+
+services:
+  kaliop.console.subscriber.lock:
+    class: "%kaliop.console.subscriber.lock.class%"
+    tags:
+      - { name: "kernel.event_subscriber" }
