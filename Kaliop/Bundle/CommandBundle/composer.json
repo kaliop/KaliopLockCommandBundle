@@ -1,0 +1,25 @@
+{
+  "name": "kaliop/command-bundle",
+  "type": "symfony-bundle",
+  "description": "Features for Symfony commands",
+  "keywords": ["kaliop", "command", "console"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name":     "Benoit Wannepain",
+      "email":    "bwannepain@kaliop.com",
+      "role":     "Lead Developer"
+    }
+  ],
+  "require": {
+    "symfony/http-kernel": "~2.7",
+    "symfony/dependency-injection": "~2.7",
+    "symfony/console": "~2.7",
+    "symfony/event-dispatcher": "~2.7",
+    "symfony/filesystem": "~2.7"
+  },
+  "autoload": {
+    "psr-4": { "Kaliop\\Bundle\\CommandBundle\\": "" }
+  },
+  "minimum-stability": "stable"
+}
