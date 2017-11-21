@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Kaliop\Bundle\ConsoleBundle;
+namespace Kaliop\LockCommandBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Kaliop\Bundle\ConsoleBundle\DependencyInjection\Compiler\RegisterLockPass;
 
 
-class KaliopConsoleBundle extends Bundle
+class LockCommandBundle extends Bundle
 {
     public function build(ContainerBuilder $container)
     {

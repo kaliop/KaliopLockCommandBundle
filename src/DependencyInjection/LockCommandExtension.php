@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Kaliop\Bundle\ConsoleBundle\DependencyInjection;
+namespace Kaliop\LockCommandBundle\DependencyInjection;
 
 
 use Symfony\Component\Config\FileLocator;
@@ -9,7 +9,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class KaliopConsoleExtension extends Extension
+class LockCommandExtension extends Extension
 {
 
     /**

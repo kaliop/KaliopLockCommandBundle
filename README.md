@@ -4,15 +4,15 @@
 
 ### Configure repository
 ```bash
-$ php composer.phar config repositories.kaliopConsoleBundle '{ "type": "vcs", "url": "ssh://git@stash.kaliop.net:7999/kt/kaliop-console-bundle.git" }'
+$ php composer.phar config repositories.kaliopConsoleBundle '{ "type": "vcs", "url": "ssh://git@github.com:kaliop/kaliop-lock-command-bundle.git" }'
 ```
 ### Install library
 ```bash
-$ php composer.phar require kaliop/console-bundle:dev-master
+$ php composer.phar require kaliop/lock-command-bundle
 ```
 ### Remove library
 ```bash
-$ php composer.phar remove kaliop/console-bundle
+$ php composer.phar remove kaliop/lock-command-bundle
 ```
 ### Add bundle to AppKernel
 ```php
@@ -22,7 +22,7 @@ class AppKernel extends Kernel
     {
         $bundles = [
             ...
-            new \Kaliop\Bundle\ConsoleBundle\KaliopConsoleBundle(),
+            new Kaliop\LockCommandBundle\LockCommandBundle(),
             ...
         ];
     }

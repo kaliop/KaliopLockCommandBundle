@@ -1,5 +1,5 @@
 parameters:
-  kaliop.console.subscriber.lock.class: "Kaliop\\Bundle\\ConsoleBundle\\EventListener\\LockSubscriber"
+  kaliop.console.subscriber.lock.class: "Kaliop\\LockCommandBundle\\EventListener\\LockSubscriber"
 
 services:
   kaliop.console.subscriber.lock:

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Kaliop\Bundle\ConsoleBundle\EventListener;
+namespace Kaliop\LockCommandBundle\EventListener;
 
 
 use Symfony\Component\Console\ConsoleEvents;
