@@ -4,7 +4,7 @@
 
 ### Configure repository
 ```bash
-$ php composer.phar config repositories.kaliopConsoleBundle '{ "type": "vcs", "url": "ssh://git@github.com:kaliop/kaliop-lock-command-bundle.git" }'
+$ php composer.phar config repositories.kaliopConsoleBundle '{ "type": "vcs", "url": "https://github.com/kaliop/kaliop-lock-command-bundle.git" }'
 ```
 ### Install library
 ```bash
