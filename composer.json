@@ -22,10 +22,5 @@
   "autoload": {
     "psr-4": { "Kaliop\\LockCommandBundle\\": "src" }
   },
-  "minimum-stability": "stable",
-  "extra": {
-    "branch-alias": {
-      "dev-master": "master"
-    }
-  }
+  "minimum-stability": "stable"
 }
